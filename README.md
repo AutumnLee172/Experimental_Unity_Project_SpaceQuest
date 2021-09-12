@@ -6,3 +6,5 @@ if you cannot run the game, it might be due to incorrect version of unity or you
 
 We have 3 branches in this repository: dev, project_testing, stable_version. Usually we will all work on the dev branch. When we reach a point where we have more extra features, we will merge the testing branch with the dev branch. After making sure everything works fine, we will merge stable_version branch with the testing branch again. 
 Consider testing branch is the backup branch and stable_version is the backup of the backup branch.
+
+Happy Coding!!
