@@ -8,6 +8,7 @@ using UnityEngine.EventSystems;
 
 public class MainMenu : MonoBehaviour
 {
+    //trying to use a different method for ui, but it's more complicated, not using it rn *start* 
     public GameObject ui_canvas;
     GraphicRaycaster ui_raycaster;
 
@@ -44,7 +45,9 @@ public class MainMenu : MonoBehaviour
             Debug.Log(ui_element.name);
         }
     }
+    //trying to use a different method for ui, but it's more complicated, not using it rn *end* 
 
+    //real MainMenu Ui function
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
