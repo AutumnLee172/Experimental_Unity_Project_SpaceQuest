@@ -41,6 +41,14 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Misc"",
+                    ""type"": ""Button"",
+                    ""id"": ""f701e8c8-ebd2-462d-8dc9-3955cf3843c0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -120,6 +128,17 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
                     ""action"": ""Attack"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ad3516ff-e844-474f-9950-583846f8016e"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Misc"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -158,6 +177,7 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
         m_Land_Move = m_Land.FindAction("Move", throwIfNotFound: true);
         m_Land_MoveUpDown = m_Land.FindAction("MoveUpDown", throwIfNotFound: true);
         m_Land_Attack = m_Land.FindAction("Attack", throwIfNotFound: true);
+        m_Land_Misc = m_Land.FindAction("Misc", throwIfNotFound: true);
         // Menu
         m_Menu = asset.FindActionMap("Menu", throwIfNotFound: true);
         m_Menu_Click = m_Menu.FindAction("Click", throwIfNotFound: true);
@@ -213,6 +233,7 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
     private readonly InputAction m_Land_Move;
     private readonly InputAction m_Land_MoveUpDown;
     private readonly InputAction m_Land_Attack;
+    private readonly InputAction m_Land_Misc;
     public struct LandActions
     {
         private @PlayerMovementControl m_Wrapper;
@@ -220,6 +241,7 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
         public InputAction @Move => m_Wrapper.m_Land_Move;
         public InputAction @MoveUpDown => m_Wrapper.m_Land_MoveUpDown;
         public InputAction @Attack => m_Wrapper.m_Land_Attack;
+        public InputAction @Misc => m_Wrapper.m_Land_Misc;
         public InputActionMap Get() { return m_Wrapper.m_Land; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -238,6 +260,9 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
                 @Attack.started -= m_Wrapper.m_LandActionsCallbackInterface.OnAttack;
                 @Attack.performed -= m_Wrapper.m_LandActionsCallbackInterface.OnAttack;
                 @Attack.canceled -= m_Wrapper.m_LandActionsCallbackInterface.OnAttack;
+                @Misc.started -= m_Wrapper.m_LandActionsCallbackInterface.OnMisc;
+                @Misc.performed -= m_Wrapper.m_LandActionsCallbackInterface.OnMisc;
+                @Misc.canceled -= m_Wrapper.m_LandActionsCallbackInterface.OnMisc;
             }
             m_Wrapper.m_LandActionsCallbackInterface = instance;
             if (instance != null)
@@ -251,6 +276,9 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
                 @Attack.started += instance.OnAttack;
                 @Attack.performed += instance.OnAttack;
                 @Attack.canceled += instance.OnAttack;
+                @Misc.started += instance.OnMisc;
+                @Misc.performed += instance.OnMisc;
+                @Misc.canceled += instance.OnMisc;
             }
         }
     }
@@ -293,6 +321,7 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnMoveUpDown(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
+        void OnMisc(InputAction.CallbackContext context);
     }
     public interface IMenuActions
     {
