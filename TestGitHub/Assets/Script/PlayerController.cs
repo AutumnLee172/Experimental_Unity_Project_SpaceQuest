@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public DialogueTrigger DialogueTrigger;
     public BoxCollider2D boxcollider;
     private Camera cam = null;
-    private float targetTime = 13.5f;
+    private float targetTime = 13.0f;
 
     private void Awake()
     {
