@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public DialogueTrigger DialogueTrigger;
     public BoxCollider2D boxcollider;
     private Camera cam = null;
+    private float targetTime = 13.5f;
 
     private void Awake()
     {
@@ -68,53 +69,27 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Space_Clicked", false);
         }
 
-        
-        
+
+
+        targetTime -= Time.deltaTime;
 
         if (Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            //Vector2 mouseposition = Mouse.current.position.ReadValue();
-            //BoxCollider2D coll = boxcollider.GetComponent<BoxCollider2D>();
-            //Debug.Log("left clicked " + Mouse.current.position.ReadValue());
-            //if (boxcollider.OverlapPoint(mouseposition))
-            //{
-            //    DialogueTrigger.TriggerDialogue();
-            //    Debug.Log("clicked on Noctis!");
-            //}
-
-
-            //Ray ray = cam.ScreenPointToRay(Mouse.current.position.ReadValue());
-            
-            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-            RaycastHit2D hit = Physics2D.Raycast (ray.origin, ray.direction, Mathf.Infinity);
-
-            if (hit.collider.gameObject.name == "Square")
+        {            
+            try
             {
-                DialogueTrigger.TriggerDialogue();
-                //Debug.Log(hit.collider.gameObject.name);
+                Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+                RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
+
+                if (hit.collider.gameObject.name == "Square" && targetTime <= 0.0f)
+                {
+                    DialogueTrigger.TriggerDialogue();
+                    //Debug.Log(hit.collider.gameObject.name);
+                }
+            }
+            catch
+            {
+                //Debug.Log("error");
             }
         }
-
-        //if (coll.OverlapPoint(mousePosition))
-        //{
-        //    DialogueTrigger.TriggerDialogue();
-        //}
-
-
-        //if (PlayerMovementControl.Land.Misc.triggered)
-        //{
-        //    Vector3 mousePosition = PlayerMovementControl.Land.Misc.ReadValue<Vector2>();
-        //    Debug.Log("left clicked" + mousePosition);
-        //}
-
-        //if (PlayerMovementControl.Land.Misc.triggered)
-        //{
-        //    DialogueTrigger.TriggerDialogue();
-        //    Debug.Log("left clicked");
-        //}
-        //else
-        //{
-
-        //}
     }
 }
