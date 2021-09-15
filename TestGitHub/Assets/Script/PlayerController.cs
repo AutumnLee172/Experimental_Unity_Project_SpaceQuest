@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public BoxCollider2D boxcollider;
     private Camera cam = null;
     private float targetTime = 13.0f;
-
+    private float lockPos = 0;
     private void Awake()
     {
         PlayerMovementControl = new PlayerMovementControl();
@@ -91,5 +91,7 @@ public class PlayerController : MonoBehaviour
                 //Debug.Log("error");
             }
         }
+
+        transform.rotation = Quaternion.Euler(lockPos, lockPos, lockPos);
     }
 }
