@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DialogueScenneTemplate.unity
     guid: 8038b92ef435e8949ad59fbf62a6ca75
+  - enabled: 1
+    path: Assets/Scenes/tyler.unity
+    guid: fa50ec9441fe65747a9ed5c49b768ee4
   m_configObjects: {}

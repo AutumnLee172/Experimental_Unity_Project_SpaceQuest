@@ -1743,9 +1743,10 @@ MonoBehaviour:
   dialogue:
     name: Name 1
     sentences:
-    - Test Sentence 1
-    - Test Sentence 2
-    - Test Sentence 3
+    - Onii chan~~
+    - Would you like dinna, bath, or...
+    - Wa Ta Shi? ~~
+    - DOnt ignore sentence
 --- !u!4 &1243662742
 Transform:
   m_ObjectHideFlags: 0
