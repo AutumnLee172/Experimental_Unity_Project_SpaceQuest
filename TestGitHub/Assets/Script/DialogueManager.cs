@@ -9,6 +9,7 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
 
     public Animator animator;
+    public Animator selectionbox;
 
     public Queue<string> sentences;
 
@@ -52,6 +53,7 @@ public class DialogueManager : MonoBehaviour
     {
         Debug.Log("End of conversation.");
         animator.SetBool("IsOpen", false);
+        selectionbox.SetBool("Is_Open_Selection", true);
     }
 
 

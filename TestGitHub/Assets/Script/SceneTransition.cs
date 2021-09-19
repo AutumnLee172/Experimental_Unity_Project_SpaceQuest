@@ -14,4 +14,9 @@ public class SceneTransition : MonoBehaviour
             SceneManager.LoadScene(sceneToLoad);
         }
     }
+
+    public void OnClick_Load()
+    {       
+     SceneManager.LoadScene(sceneToLoad);        
+    }
 }
