@@ -396,6 +396,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
+  jumpSpeed: 5
+  ground:
+    serializedVersion: 2
+    m_Bits: 256
   animator: {fileID: 766956764}
   boxcollider: {fileID: 766956766}
 --- !u!212 &766956769
@@ -476,7 +480,7 @@ GameObject:
   - component: {fileID: 939604577}
   - component: {fileID: 939604576}
   - component: {fileID: 939604578}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
