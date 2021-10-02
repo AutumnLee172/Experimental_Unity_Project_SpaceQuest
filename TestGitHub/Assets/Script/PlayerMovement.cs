@@ -57,6 +57,22 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Tetris_Move_Left"",
+                    ""type"": ""Button"",
+                    ""id"": ""a338daed-da5d-4d00-923a-56dc372d53fc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Tetris_Move_Right"",
+                    ""type"": ""Button"",
+                    ""id"": ""955b2260-9cf9-4f7e-b07c-b8f024abddcb"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -158,6 +174,28 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
                     ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a0f8bfc3-9407-4e0b-936a-0913bfb41a72"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Tetris_Move_Left"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""707a2bd5-4bd0-44f1-9e97-e1ca3a375561"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Tetris_Move_Right"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -198,6 +236,8 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
         m_Land_Attack = m_Land.FindAction("Attack", throwIfNotFound: true);
         m_Land_Misc = m_Land.FindAction("Misc", throwIfNotFound: true);
         m_Land_Jump = m_Land.FindAction("Jump", throwIfNotFound: true);
+        m_Land_Tetris_Move_Left = m_Land.FindAction("Tetris_Move_Left", throwIfNotFound: true);
+        m_Land_Tetris_Move_Right = m_Land.FindAction("Tetris_Move_Right", throwIfNotFound: true);
         // Menu
         m_Menu = asset.FindActionMap("Menu", throwIfNotFound: true);
         m_Menu_Click = m_Menu.FindAction("Click", throwIfNotFound: true);
@@ -255,6 +295,8 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
     private readonly InputAction m_Land_Attack;
     private readonly InputAction m_Land_Misc;
     private readonly InputAction m_Land_Jump;
+    private readonly InputAction m_Land_Tetris_Move_Left;
+    private readonly InputAction m_Land_Tetris_Move_Right;
     public struct LandActions
     {
         private @PlayerMovementControl m_Wrapper;
@@ -264,6 +306,8 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
         public InputAction @Attack => m_Wrapper.m_Land_Attack;
         public InputAction @Misc => m_Wrapper.m_Land_Misc;
         public InputAction @Jump => m_Wrapper.m_Land_Jump;
+        public InputAction @Tetris_Move_Left => m_Wrapper.m_Land_Tetris_Move_Left;
+        public InputAction @Tetris_Move_Right => m_Wrapper.m_Land_Tetris_Move_Right;
         public InputActionMap Get() { return m_Wrapper.m_Land; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -288,6 +332,12 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
                 @Jump.started -= m_Wrapper.m_LandActionsCallbackInterface.OnJump;
                 @Jump.performed -= m_Wrapper.m_LandActionsCallbackInterface.OnJump;
                 @Jump.canceled -= m_Wrapper.m_LandActionsCallbackInterface.OnJump;
+                @Tetris_Move_Left.started -= m_Wrapper.m_LandActionsCallbackInterface.OnTetris_Move_Left;
+                @Tetris_Move_Left.performed -= m_Wrapper.m_LandActionsCallbackInterface.OnTetris_Move_Left;
+                @Tetris_Move_Left.canceled -= m_Wrapper.m_LandActionsCallbackInterface.OnTetris_Move_Left;
+                @Tetris_Move_Right.started -= m_Wrapper.m_LandActionsCallbackInterface.OnTetris_Move_Right;
+                @Tetris_Move_Right.performed -= m_Wrapper.m_LandActionsCallbackInterface.OnTetris_Move_Right;
+                @Tetris_Move_Right.canceled -= m_Wrapper.m_LandActionsCallbackInterface.OnTetris_Move_Right;
             }
             m_Wrapper.m_LandActionsCallbackInterface = instance;
             if (instance != null)
@@ -307,6 +357,12 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
+                @Tetris_Move_Left.started += instance.OnTetris_Move_Left;
+                @Tetris_Move_Left.performed += instance.OnTetris_Move_Left;
+                @Tetris_Move_Left.canceled += instance.OnTetris_Move_Left;
+                @Tetris_Move_Right.started += instance.OnTetris_Move_Right;
+                @Tetris_Move_Right.performed += instance.OnTetris_Move_Right;
+                @Tetris_Move_Right.canceled += instance.OnTetris_Move_Right;
             }
         }
     }
@@ -351,6 +407,8 @@ public class @PlayerMovementControl : IInputActionCollection, IDisposable
         void OnAttack(InputAction.CallbackContext context);
         void OnMisc(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnTetris_Move_Left(InputAction.CallbackContext context);
+        void OnTetris_Move_Right(InputAction.CallbackContext context);
     }
     public interface IMenuActions
     {

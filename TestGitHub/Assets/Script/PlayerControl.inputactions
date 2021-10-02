@@ -44,6 +44,22 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Tetris_Move_Left",
+                    "type": "Button",
+                    "id": "a338daed-da5d-4d00-923a-56dc372d53fc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Tetris_Move_Right",
+                    "type": "Button",
+                    "id": "955b2260-9cf9-4f7e-b07c-b8f024abddcb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -143,6 +159,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0f8bfc3-9407-4e0b-936a-0913bfb41a72",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tetris_Move_Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "707a2bd5-4bd0-44f1-9e97-e1ca3a375561",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tetris_Move_Right",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
