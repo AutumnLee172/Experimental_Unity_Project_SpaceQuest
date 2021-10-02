@@ -552,8 +552,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000047684, y: 32.42}
-  m_SizeDelta: {x: 332.62, y: 64.84}
+  m_AnchoredPosition: {x: 0.000015259, y: 29.215}
+  m_SizeDelta: {x: 455.6, y: 58.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &746864538
 MonoBehaviour:
@@ -653,7 +653,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: -1
+  m_GravityScale: -0.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -776,7 +776,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766956763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11, y: -4.16, z: 0}
+  m_LocalPosition: {x: -0.29, y: -4.11, z: 0}
   m_LocalScale: {x: 1.4711773, y: 1.5084457, z: 0.38235655}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1602,6 +1602,7 @@ GameObject:
   - component: {fileID: 2049272172}
   - component: {fileID: 2049272174}
   - component: {fileID: 2049272173}
+  - component: {fileID: 2049272175}
   m_Layer: 0
   m_Name: SideWall
   m_TagString: Untagged
@@ -16229,6 +16230,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &2049272175
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049272171}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &2134333160
 GameObject:
   m_ObjectHideFlags: 0
