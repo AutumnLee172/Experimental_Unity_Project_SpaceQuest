@@ -71,11 +71,11 @@ public class PlayerController_2dplatformer : MonoBehaviour
         currentPosition.x += movementInput_x * speed * Time.deltaTime;
         if (movementInput_x > 0)
         {
-            characterScale.x = (float)-2.68;
+            characterScale.x = (float)-7.742301;
         }
         if (movementInput_x < 0)
         {
-            characterScale.x = (float)2.68;
+            characterScale.x = (float)7.742301;
         }
         
         //currentPosition.y += movementInput_y * 10 * Time.deltaTime;
