@@ -92,6 +92,15 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if(targetTime <= 0.0f)
+        {
+           OnEnable();
+        }
+        else
+        {
+            OnDisable();
+        }
+
         transform.rotation = Quaternion.Euler(lockPos, lockPos, lockPos);
     }
 }
