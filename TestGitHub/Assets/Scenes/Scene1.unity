@@ -408,7 +408,7 @@ Animator:
   m_GameObject: {fileID: 666196372}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fa4d46d870cc2b34cbfb7276a6b14aff, type: 2}
+  m_Controller: {fileID: 9100000, guid: 90d62f58a5a0f3d45ad457a891e62d3f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -451,18 +451,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.012209237, y: 0.010713875}
+  m_Offset: {x: 0.006020583, y: -0.0019856803}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.4, y: 0.55}
+    oldSize: {x: 0.14, y: 0.24}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.38700253, y: 0.53328633}
+  m_Size: {x: 0.121368095, y: 0.24373585}
   m_EdgeRadius: 0
 --- !u!114 &666196376
 MonoBehaviour:
@@ -473,12 +473,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 666196372}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb24835d5d51fd1458f29036f9a4c03a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e61072cfb81d634f9f0ec0c4bfcd8af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3
   animator: {fileID: 666196373}
-  DialogueTrigger: {fileID: 0}
   boxcollider: {fileID: 666196375}
   targetTime: 8
 --- !u!212 &666196377
@@ -521,7 +520,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6056417631341031710, guid: 24177c61d8e70384591f8d746cd41e93,
+  m_Sprite: {fileID: -3295834007632854175, guid: 94dab51b859ec074db0701e51b91c85a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -541,8 +540,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666196372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -5.92, z: 0}
-  m_LocalScale: {x: 2.688555, y: 2.7566624, z: 0.698751}
+  m_LocalPosition: {x: -0.17, y: -5.79, z: 0}
+  m_LocalScale: {x: 6.894906, y: 7.0695705, z: 1.7919745}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1392,6 +1391,8 @@ PlayableDirector:
   - key: {fileID: -6985709927828352915, guid: 36c68b4d54a3846489841f98c47563b3, type: 2}
     value: {fileID: 885888635}
   - key: {fileID: 5536996404386250701, guid: 36c68b4d54a3846489841f98c47563b3, type: 2}
+    value: {fileID: 666196373}
+  - key: {fileID: 2983969922333459514, guid: 36c68b4d54a3846489841f98c47563b3, type: 2}
     value: {fileID: 666196373}
   m_ExposedReferences:
     m_References: []
