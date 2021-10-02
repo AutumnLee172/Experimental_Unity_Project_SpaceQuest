@@ -21,6 +21,39 @@ EditorBuildSettings:
     path: Assets/Scenes/Inside_Rocket.unity
     guid: 8038b92ef435e8949ad59fbf62a6ca75
   - enabled: 1
+    path: Assets/Scenes/1_1_EndingScene.unity
+    guid: 94f43560f7168404397167a3f344a9e7
+  - enabled: 1
+    path: Assets/Scenes/DialogueScenneTemplate 1.unity
+    guid: 19c7fe1f01359c74b909cdeb097079ea
+  - enabled: 1
+    path: Assets/Scenes/Maze.unity
+    guid: 71d4aeddfa502e14e8b342813f5f06c1
+  - enabled: 1
+    path: Assets/Scenes/MineSweeper.unity
+    guid: 226c9f08eb6c7ac458a95d1a893cc4a7
+  - enabled: 1
+    path: Assets/Scenes/Rocket_MiniGame.unity
+    guid: e08b8985ab92b874fa90ccd7ea9e25f9
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2d17cb594776b64488aff15d543407e4
+  - enabled: 1
+    path: Assets/Scenes/Ship_Selected1.unity
+    guid: 2fe9244e1fa1202479bda01ec6169d51
+  - enabled: 1
+    path: Assets/Scenes/Ship_Selected3.unity
+    guid: 0b284e80b475ada40a322f8e4cabdf19
+  - enabled: 1
+    path: Assets/Scenes/ShipSelection2.unity
+    guid: 4213c1f80c017f14d8b6eb4d45a0ccb7
+  - enabled: 1
+    path: Assets/Scenes/ShipSelection3.unity
+    guid: ffbc7975863aacf4693cac3f9e31c90a
+  - enabled: 1
+    path: Assets/Scenes/SpaceQuest_Astronaut.unity
+    guid: ddca75f2e6a436c4abd84701745608f2
+  - enabled: 1
     path: Assets/Scenes/tyler.unity
     guid: fa50ec9441fe65747a9ed5c49b768ee4
   - enabled: 1

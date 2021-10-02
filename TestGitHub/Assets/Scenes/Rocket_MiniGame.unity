@@ -315,7 +315,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -356,6 +356,7 @@ GameObject:
   - component: {fileID: 609367889}
   - component: {fileID: 609367888}
   - component: {fileID: 609367887}
+  - component: {fileID: 609367890}
   m_Layer: 0
   m_Name: GameOverCollider
   m_TagString: Untagged
@@ -370,7 +371,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609367886}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53825bf92e1e03049bba5ef27318bb50, type: 3}
   m_Name: 
@@ -417,6 +418,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &609367890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609367886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a460df67877144d8e60a2a88d171af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: ShipSelection3
+  UIanimator: {fileID: 1011805393}
+  camera_follow: {fileID: 519420031}
 --- !u!1 &708822691
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +669,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: -0.3
+  m_GravityScale: -0.09
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

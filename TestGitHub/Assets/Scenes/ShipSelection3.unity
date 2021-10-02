@@ -3435,7 +3435,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 992618759}
   m_OnClick:
     m_PersistentCalls:
@@ -3816,7 +3816,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1486051854}
   m_OnClick:
     m_PersistentCalls:
@@ -4379,7 +4379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dc2b48c4de6748b685a0fb2500bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Maze
+  sceneToLoad: Ship_Selected1
 --- !u!4 &1948196629
 Transform:
   m_ObjectHideFlags: 0
