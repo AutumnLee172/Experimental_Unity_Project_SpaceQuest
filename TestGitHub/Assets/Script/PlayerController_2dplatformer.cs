@@ -99,5 +99,5 @@ public class PlayerController_2dplatformer : MonoBehaviour
         transform.rotation = Quaternion.Euler(lockPos, lockPos, lockPos);
     }
 
-
+   
 }
