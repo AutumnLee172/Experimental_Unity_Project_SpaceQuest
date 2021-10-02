@@ -3723,7 +3723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dc2b48c4de6748b685a0fb2500bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Ship_Selected3
+  sceneToLoad: MineSweeper
 --- !u!4 &1080419405
 Transform:
   m_ObjectHideFlags: 0
