@@ -251,6 +251,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27dc3dc9be4a7144789105f41c27b53d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: Epic_Cutscene
+  delayTime: 5
 --- !u!1 &318177958
 GameObject:
   m_ObjectHideFlags: 0

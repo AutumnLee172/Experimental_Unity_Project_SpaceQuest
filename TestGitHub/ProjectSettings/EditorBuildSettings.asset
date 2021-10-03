@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Maze.unity
     guid: 71d4aeddfa502e14e8b342813f5f06c1
   - enabled: 1
+    path: Assets/Scenes/Epic_Cutscene.unity
+    guid: 4492db04bf7a3704baf9a7d9f12f0a00
+  - enabled: 1
     path: Assets/Scenes/MineSweeper.unity
     guid: 226c9f08eb6c7ac458a95d1a893cc4a7
   - enabled: 1
