@@ -4239,7 +4239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: CreditScene
-  delayTime: 10
+  delayTime: 14
 --- !u!4 &873080519
 Transform:
   m_ObjectHideFlags: 0

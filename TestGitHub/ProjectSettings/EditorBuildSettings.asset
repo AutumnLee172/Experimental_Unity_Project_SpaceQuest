@@ -12,13 +12,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene1.unity
     guid: 199f54a5cc8c73e48b8ed1e744276a6d
   - enabled: 0
-    path: Assets/Scenes/Cutscene1.unity
+    path: 
     guid: 21fa61018b4d6154c9f8ee8006533a89
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/AfterDejavu.unity
+    guid: ff158f31d7b6a0849872ee623a3aff07
   - enabled: 0
-    path: Assets/Scenes/Scene2.unity
+    path: 
     guid: 0b9f26b4ceafbec4a839659e3d2e3c4d
   - enabled: 1
     path: Assets/Scenes/Inside_Rocket.unity
@@ -51,7 +54,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Ship_Selected1.unity
     guid: 2fe9244e1fa1202479bda01ec6169d51
   - enabled: 0
-    path: Assets/Scenes/Ship_Selected3.unity
+    path: 
     guid: 0b284e80b475ada40a322f8e4cabdf19
   - enabled: 1
     path: Assets/Scenes/ShipSelection2.unity
@@ -60,10 +63,10 @@ EditorBuildSettings:
     path: Assets/Scenes/ShipSelection3.unity
     guid: ffbc7975863aacf4693cac3f9e31c90a
   - enabled: 0
-    path: Assets/Scenes/SpaceQuest_Astronaut.unity
+    path: 
     guid: ddca75f2e6a436c4abd84701745608f2
   - enabled: 0
-    path: Assets/Scenes/tyler.unity
+    path: 
     guid: fa50ec9441fe65747a9ed5c49b768ee4
   - enabled: 1
     path: Assets/Scenes/ShipSelection.unity
