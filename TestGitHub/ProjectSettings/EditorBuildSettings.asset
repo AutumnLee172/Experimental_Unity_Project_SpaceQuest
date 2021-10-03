@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene1.unity
     guid: 199f54a5cc8c73e48b8ed1e744276a6d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Cutscene1.unity
     guid: 21fa61018b4d6154c9f8ee8006533a89
   - enabled: 1
@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dejavu.unity
     guid: bbd94bb7d22059b4b87f0fe3b7230f2e
+  - enabled: 1
+    path: Assets/Scenes/CreditScene.unity
+    guid: d220345050e573f47aa10889a523008a
   m_configObjects: {}

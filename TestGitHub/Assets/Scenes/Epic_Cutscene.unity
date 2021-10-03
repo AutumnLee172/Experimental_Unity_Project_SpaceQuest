@@ -5063,7 +5063,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Astronaut: Now... lets journey to the hope of humans.. to Proxima B!!'
+  m_Text: 'Astronaut: Now... lets journey to the hope of humans.. to TOI 700 d!!'
 --- !u!222 &1852263377
 CanvasRenderer:
   m_ObjectHideFlags: 0
