@@ -217,6 +217,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 46747695}
+  - component: {fileID: 46747696}
   m_Layer: 0
   m_Name: DelaySwitchScene
   m_TagString: Untagged
@@ -238,6 +239,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &46747696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46747694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27dc3dc9be4a7144789105f41c27b53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &318177958
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,8 +596,8 @@ TextMesh:
   m_Text: "Lorem Ipsum \nis simply dummy tex\n of the printing\n and typesetting\nindustry.
     Lorem Ipsum has been\n\n the industry's standard dummy t\next ever since the
     1500s, when a\nn unknown printer took a galley o\n\nf type and scrambled it to
-    make a\ntype specimen book. It has surviv\ned not only five centuries, but \n
-    the leap into electronic typesetti\nng, remaining essentially \n. It was popularised
+    make a\ntype specimen book. It has surviv\ned not only five centuries, but \nthe
+    leap into electronic typesetti\nng, remaining essentially \n. It was popularised
     in the 1960s \nwith the release of Letraset sheet\ns\n containing Lorem Ipsum
     passages\n, and more recently with desktop \npublishing software like Aldus PageMaker
     \nincluding versions of Lorem Ipsum."
