@@ -462,7 +462,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: -44025399
+  m_SortingLayerID: -105541197
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &77246357
@@ -524,8 +524,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -249, y: -93}
-  m_SizeDelta: {x: -32.1, y: 63.31}
+  m_AnchoredPosition: {x: -249.4, y: -90.562}
+  m_SizeDelta: {x: -57.521, y: 40.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &103654579
 MonoBehaviour:
@@ -615,8 +615,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 76c1b42f1ce14f547be82b494619c854, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -719,7 +719,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Only click the box that contains \"1\"  \uFF08\u3063\uFF3E\u25BF\uFF3E\uFF09"
+  m_Text: 'What are the planets in the solar system? '
 --- !u!222 &144665539
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -798,7 +798,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Material Collected : '
+  m_Text: 'Correct Planets: '
 --- !u!222 &166408912
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -839,10 +839,10 @@ RectTransform:
   m_Father: {fileID: 1336558427}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0.36135724}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076293945, y: 0}
-  m_SizeDelta: {x: 37.95, y: 26.39}
+  m_AnchoredPosition: {x: 0.0000011921, y: -32.4}
+  m_SizeDelta: {x: 95.01, y: 17.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &257600836
 MonoBehaviour:
@@ -877,7 +877,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: Mercury
 --- !u!222 &257600837
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1069,8 +1069,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 131, y: -92.997}
-  m_SizeDelta: {x: -34.91, y: 63.305}
+  m_AnchoredPosition: {x: 127, y: -90.562}
+  m_SizeDelta: {x: -42.92, y: 58.435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &498108891
 MonoBehaviour:
@@ -1327,8 +1327,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 298.57, y: -13.227001}
-  m_SizeDelta: {x: -35.76, y: 70.875}
+  m_AnchoredPosition: {x: 293, y: -6.332203}
+  m_SizeDelta: {x: -45.77, y: 57.085}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &586188255
 MonoBehaviour:
@@ -1458,8 +1458,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000025965, y: 0.0000019073}
-  m_SizeDelta: {x: 37.95, y: 26.39}
+  m_AnchoredPosition: {x: 0, y: -37}
+  m_SizeDelta: {x: 76.34, y: 28.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750218744
 MonoBehaviour:
@@ -1494,7 +1494,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: Venus
 --- !u!222 &750218745
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1695,8 +1695,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 0.36000824}
-  m_SizeDelta: {x: 37.95, y: 26.39}
+  m_AnchoredPosition: {x: -0.0000019073, y: -37}
+  m_SizeDelta: {x: 83, y: 24.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &825476394
 MonoBehaviour:
@@ -1731,7 +1731,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: Saturn
 --- !u!222 &825476395
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1774,8 +1774,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 37.95, y: 26.39}
+  m_AnchoredPosition: {x: -0.0000012517, y: -38}
+  m_SizeDelta: {x: 73.99, y: 31.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845076676
 MonoBehaviour:
@@ -1810,7 +1810,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: Jupiter
 --- !u!222 &845076677
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1935,8 +1935,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -86, y: -8.772499}
-  m_SizeDelta: {x: -35.33, y: 70.875}
+  m_AnchoredPosition: {x: -82.3, y: -11.035}
+  m_SizeDelta: {x: -53.35, y: 47.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1025207439
 MonoBehaviour:
@@ -2026,8 +2026,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4e6eed3e377bc6244b45620222afe3f6, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2345,8 +2345,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -128, y: -93}
-  m_SizeDelta: {x: -33.97, y: 63.31}
+  m_AnchoredPosition: {x: -127, y: -89.13}
+  m_SizeDelta: {x: -42.98, y: 53.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309739721
 MonoBehaviour:
@@ -2479,8 +2479,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 171.14, y: -176.67}
-  m_SizeDelta: {x: -40.81, y: 65.69}
+  m_AnchoredPosition: {x: 167.5, y: -175.32}
+  m_SizeDelta: {x: -48.09, y: 51.667}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1332274919
 MonoBehaviour:
@@ -2528,19 +2528,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1039691706}
         m_TargetAssemblyTypeName: MineSweeper, Assembly-CSharp
-        m_MethodName: OnClick_AddPoint
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1332274922}
-        m_TargetAssemblyTypeName: MineSweeper, Assembly-CSharp
-        m_MethodName: OnClick_Destory
+        m_MethodName: OnClick_Lose
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2641,8 +2629,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -86, y: -181.33}
-  m_SizeDelta: {x: -35.33, y: 65.69}
+  m_AnchoredPosition: {x: -85.17999, y: -175.32}
+  m_SizeDelta: {x: -47.59, y: 51.669}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1332698308
 MonoBehaviour:
@@ -2803,8 +2791,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 50.4, y: -0.26250076}
-  m_SizeDelta: {x: -34.65, y: 64.89}
+  m_AnchoredPosition: {x: 41.35, y: -6.332199}
+  m_SizeDelta: {x: -58.71, y: 43.781}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336558428
 MonoBehaviour:
@@ -2894,8 +2882,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c55c1e6d06ef5304c82bfc8ac3d55045, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4960,8 +4948,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076293945, y: 0}
-  m_SizeDelta: {x: 37.95, y: 26.39}
+  m_AnchoredPosition: {x: -0.0000038147, y: -41}
+  m_SizeDelta: {x: 81, y: 33.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1389982772
 MonoBehaviour:
@@ -4996,7 +4984,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: Neptune
 --- !u!222 &1389982773
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5121,8 +5109,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 48.41, y: -176.67001}
-  m_SizeDelta: {x: -38.63, y: 65.69}
+  m_AnchoredPosition: {x: 41.35, y: -173.65}
+  m_SizeDelta: {x: -44.79, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445857470
 MonoBehaviour:
@@ -5280,8 +5268,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 0}
-  m_SizeDelta: {x: 37.95, y: 26.39}
+  m_AnchoredPosition: {x: 0, y: -33.5}
+  m_SizeDelta: {x: 59.89, y: 26.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1461205003
 MonoBehaviour:
@@ -5316,7 +5304,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: Earth
 --- !u!222 &1461205004
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5440,8 +5428,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 248, y: -91.13}
-  m_SizeDelta: {x: -33.97, y: 67.04}
+  m_AnchoredPosition: {x: 249, y: -89.13}
+  m_SizeDelta: {x: -44.98, y: 53.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1474869487
 MonoBehaviour:
@@ -5653,8 +5641,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -208, y: -11}
-  m_SizeDelta: {x: -31.73, y: 66.42}
+  m_AnchoredPosition: {x: -209.59, y: -8.772202}
+  m_SizeDelta: {x: -48.96, y: 48.968}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1606823084
 MonoBehaviour:
@@ -5744,8 +5732,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 623b4f1cae2465247be6f1bbca691b97, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5814,8 +5802,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -209.59, y: -179}
-  m_SizeDelta: {x: -34.9, y: 70.35}
+  m_AnchoredPosition: {x: -209.59, y: -175.32}
+  m_SizeDelta: {x: -37.7, y: 58.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665484924
 MonoBehaviour:
@@ -6109,8 +6097,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 37.95, y: 26.39}
+  m_AnchoredPosition: {x: 0, y: -37.7}
+  m_SizeDelta: {x: 81.06, y: 36.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1718735342
 MonoBehaviour:
@@ -6145,7 +6133,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: Mars
 --- !u!222 &1718735343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6306,8 +6294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 293, y: -179}
-  m_SizeDelta: {x: -35.761, y: 65.69}
+  m_AnchoredPosition: {x: 293, y: -173.65}
+  m_SizeDelta: {x: -45.768, y: 54.997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1788207530
 MonoBehaviour:
@@ -6355,19 +6343,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1039691706}
         m_TargetAssemblyTypeName: MineSweeper, Assembly-CSharp
-        m_MethodName: OnClick_AddPoint
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1788207533}
-        m_TargetAssemblyTypeName: MineSweeper, Assembly-CSharp
-        m_MethodName: OnClick_Destory
+        m_MethodName: OnClick_Lose
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6465,7 +6441,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 341.04, y: 188.7}
+  m_AnchoredPosition: {x: 320.9, y: 188.7}
   m_SizeDelta: {x: 48.58, y: 35.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1807247483
@@ -6501,7 +6477,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: /10
+  m_Text: /8
 --- !u!222 &1807247484
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6546,8 +6522,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 173, y: -8.772499}
-  m_SizeDelta: {x: -37.08, y: 64.89}
+  m_AnchoredPosition: {x: 167.5, y: -8.772202}
+  m_SizeDelta: {x: -48.09, y: 57.085}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1867747850
 MonoBehaviour:
@@ -6806,8 +6782,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.980011, y: 0.36000824}
-  m_SizeDelta: {x: 37.95, y: 26.39}
+  m_AnchoredPosition: {x: 0, y: -36.99}
+  m_SizeDelta: {x: 72.99, y: 24.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1963345827
 MonoBehaviour:
@@ -6842,7 +6818,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: Uranus
 --- !u!222 &1963345828
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6888,8 +6864,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -92.997}
-  m_SizeDelta: {x: -31.17, y: 63.305}
+  m_AnchoredPosition: {x: 0, y: -89.697}
+  m_SizeDelta: {x: -42.18, y: 54.435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2068320195
 MonoBehaviour:

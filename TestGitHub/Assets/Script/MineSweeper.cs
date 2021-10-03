@@ -20,7 +20,7 @@ public class MineSweeper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(score == 10)
+        if(score == 8)
         {
             taskcomplete.text = "Task Complete!!";
             Invoke("ChangeScene", 3);
