@@ -208,6 +208,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &46747694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 46747695}
+  m_Layer: 0
+  m_Name: DelaySwitchScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &46747695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46747694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.28713393, y: 0.02782681, z: -0.95949185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &318177958
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,14 +580,14 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594799488}
-  m_Text: "Lorem Ipsum \nis simply dummy tex\n of the printing\n and typesetting\n
-    industry. Lorem Ipsum has been\n\n the industry's standard dummy t\next ever
-    since the 1500s, when a\nn unknown printer took a galley o\n\nf type and scrambled
-    it to make a\ntype specimen book. It has surviv\ned not only five centuries,
-    but \n the leap into electronic typesetti\nng, remaining essentially \n. It was
-    popularised in the 1960s \nwith the release of Letraset sheet\ns\n containing
-    Lorem Ipsum passages\n, and more recently with desktop \npublishing software
-    like Aldus PageMaker \nincluding versions of Lorem Ipsum."
+  m_Text: "Lorem Ipsum \nis simply dummy tex\n of the printing\n and typesetting\nindustry.
+    Lorem Ipsum has been\n\n the industry's standard dummy t\next ever since the
+    1500s, when a\nn unknown printer took a galley o\n\nf type and scrambled it to
+    make a\ntype specimen book. It has surviv\ned not only five centuries, but \n
+    the leap into electronic typesetti\nng, remaining essentially \n. It was popularised
+    in the 1960s \nwith the release of Letraset sheet\ns\n containing Lorem Ipsum
+    passages\n, and more recently with desktop \npublishing software like Aldus PageMaker
+    \nincluding versions of Lorem Ipsum."
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
